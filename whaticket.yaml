@@ -26,7 +26,7 @@ services:
       - CHROME_ARGS=--no-sandbox --disable-setuid-sandbox
 
       # REDIS
-      - REDIS_URI=redis://:72JNTOCfOsie1AO232qd9O7yYdqmD0a7@redis:6379
+      - REDIS_URI=redis://:fKwz5jesvuxnqrbJJFyQng8lfodWxzlf@redis:6379
       - REDIS_OPT_LIMITER_MAX=1
       - REDIS_OPT_LIMITER_DURATION=3000
 
@@ -127,3 +127,4 @@ volumes:
     external: true
 
     name: whaticket_frontend_data
+
