@@ -2,7 +2,7 @@ services:
   postgres:
     image: pgvector/pgvector:pg16    
     environment:
-      - POSTGRES_PASSWORD=keWE55v95TCuajS4mZaKvrd3uGwODBoM
+      - POSTGRES_PASSWORD=fKwz5jesvuxnqrbJJFyQng8lfodWxzlf
       - TZ=America/Sao_Paulo
     networks:
       - minha_rede    
@@ -27,4 +27,5 @@ volumes:
 networks:
   minha_rede:
     external: true
+
     name: minha_rede
