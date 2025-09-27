@@ -12,7 +12,7 @@ services:
       - DB_HOST=postgres
       - DB_PORT=5432
       - DB_USER=postgres
-      - DB_PASS=72JNTOCfOsie1AO232qd9O7yYdqmD0a7 # Configure sua senha do Postgres
+      - DB_PASS=fKwz5jesvuxnqrbJJFyQng8lfodWxzlf # Configure sua senha do Postgres
       - DB_NAME=whaticket
       - TZ=America/Sao_Paulo
 
@@ -125,4 +125,5 @@ volumes:
     name: whaticket_backend_data
   whaticket_frontend_data:
     external: true
+
     name: whaticket_frontend_data
