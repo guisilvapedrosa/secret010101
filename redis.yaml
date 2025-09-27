@@ -8,7 +8,7 @@ services:
         "--port",
         "6379",
         "--requirepass",
-        "keWE55v95TCuajS4mZaKvrd3uGwODBoM"
+        "fKwz5jesvuxnqrbJJFyQng8lfodWxzlf"
       ]
     volumes:
       - redis_data:/data
@@ -32,3 +32,4 @@ networks:
   minha_rede:
     external: true
     name: minha_rede
+
